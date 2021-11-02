@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body{
+    
+    background-image: url("https://wallpaperaccess.com/full/1109535.jpg");
+    background-size: cover ;
+    background-attachment: fixed;
+    
+    
+  
+  }
+
+
+div.main{
+
+    width: 400px;
+    margin: 100px auto 0px auto;
+
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+    font-weight: 750;
+    color: rgb(28, 234, 241);
+}
+
+div.register{
+
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rebeccapurple;
+    color: #fff;
+
+}
+ form#register{
+     margin: 40px;
+
+ }
+ label{
+     font-family: sans-serif;
+     font-size:  20px;
+     font-style: normal;
+     font-weight: 700;
+     color: rgb(175, 234, 236);
+
+ }
+ input#name{
+     width: 300px;
+     padding: 7px;
+     border: 0.1px outset rgba(75, 226, 213, 0.561);
+     border-radius: 5px;
+
+     font-family:sans-serif;
+     font-size:  15px;
+     font-style: normal;
+     font-stretch:expanded;
+     color: cornsilk;
+    
+     background-color: rgba(223, 212, 198, 0);
+     box-shadow: inset  rgb(236, 42, 17);
+
+ }
+
+ input#submit{
+    width: 200px;
+    
+    border-radius: 500px;
+    border: 1px  goldenrod;
+    box-shadow: inset gold;
+    
+    padding: 7px;
+    font-family: sans-serif;
+    font-size:  18px;
+    font-weight: 700;
+    background-color: rgba(0, 255, 136, 0.753);
+    color: seashell;
+    cursor: pointer;
+
+    
+}
