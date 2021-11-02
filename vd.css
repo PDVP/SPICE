@@ -7,7 +7,7 @@
 
 body{
     
-    background-image: url("https://wallpaperaccess.com/full/1109535.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.1)), url("https://wallpaperaccess.com/full/1109535.jpg");
     background-size: cover ;
     background-attachment: fixed;
     
@@ -26,8 +26,10 @@ body{
 h2{
     text-align: center;
     padding: 20px;
+
+    font-size: 35px;
     font-family: cursive;
-    font-weight: 750;
+    font-weight: 700;
     color: rgb(28, 234, 241);
 }
 
@@ -49,39 +51,47 @@ h2{
  }
 
  label{
-     font-family: sans-serif;
-     font-size:  20px;
-     font-style: normal;
-     font-weight: 700;
-     color: rgb(175, 234, 236);
+     font-family:monospace;
+     font-size:  23px;
+     font-style: initial;
+     font-weight: 590;
+     color: rgb(152, 217, 219);
 
+ }
+::placeholder {
+     color: rgba(92, 158, 149, 0.692);
+     opacity: 0.7;
  }
  input#name{
      width: 300px;
-     padding: 7px;
-     border: 0.1px outset rgba(75, 226, 213, 0.561);
-     border-radius: 5px;
+     padding: 10px;
+     border: 0.1px outset rgba(37, 87, 84, 0.561);
+     border-radius: 7px;
+     
 
-     font-family:sans-serif;
+     font-family: fantasy;
      font-size:  15px;
      font-style: normal;
      font-stretch:expanded;
-     color: cornsilk;
+     color: rgb(201, 179, 200);
     
      background-color: rgba(223, 212, 198, 0);
-     box-shadow: inset  rgb(236, 42, 17);
+     box-shadow: inset   rgb(40, 221, 167);
 
  }
 
  input#submit{
     width: 200px;
+
+    
+    
     
     border-radius: 500px;
     border: 1px  goldenrod;
     box-shadow: inset gold;
     
     
-    padding: 7px;
+    padding:7px;
     font-family: sans-serif;
     font-size:  18px;
     font-weight: 700;
@@ -91,3 +101,8 @@ h2{
 
     
 }
+
+input#submit:hover {
+    background-color: #a0458c;
+  }
+
