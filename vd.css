@@ -16,7 +16,7 @@ body{
   }
 
 
-div.main{
+.main{
 
     width: 400px;
     margin: 100px auto 0px auto;
@@ -31,10 +31,11 @@ h2{
     color: rgb(28, 234, 241);
 }
 
-div.register{
+.register{
 
     background-color: rgba(0,0,0,0.5);
     width: 100%;
+    
     font-size: 20px;
     border-radius: 10px;
     border: 1px solid rgba(255,255,255,0.3);
@@ -43,9 +44,10 @@ div.register{
 
 }
  form#register{
-     margin: 40px;
+    margin: 40px;
 
  }
+
  label{
      font-family: sans-serif;
      font-size:  20px;
@@ -77,6 +79,7 @@ div.register{
     border-radius: 500px;
     border: 1px  goldenrod;
     box-shadow: inset gold;
+    
     
     padding: 7px;
     font-family: sans-serif;
